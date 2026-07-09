@@ -1,0 +1,15 @@
+{
+  "name": "max-rpa-sender",
+  "version": "0.1.0",
+  "private": false,
+  "type": "module",
+  "description": "Experimental MAX Web RPA sender for consenting contacts.",
+  "scripts": {
+    "install-browser": "npx playwright install chromium",
+    "open": "node src/max-rpa-sender.js open",
+    "send": "node src/max-rpa-sender.js send"
+  },
+  "dependencies": {
+    "playwright": "^1.54.1"
+  }
+}
