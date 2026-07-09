@@ -1,0 +1,5 @@
+node_modules/
+max-browser-profile/
+output/
+.env
+*.log
